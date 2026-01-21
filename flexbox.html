@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-box</title>
+    <style>
+        .container {
+            border: 2px solid blueviolet;
+            display: flex;
+            justify-content: space-evenly;
+            height: 250px;
+            align-items: last baseline;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            border: 1px dashed orange;
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>flexbox</h3>
+    <div class="container">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+    </div>
+</body>
+
+</html>
