@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            border: 1px solid antiquewhite;
+            background-color: aquamarine;
+            /*transition: width 3s, background-color 4s;*/
+            transition: transform 1s, translate;
+        }
+
+        .box:hover {
+            transform: rotate(45deg) translateX(150px);
+            /* width: 400px;
+            background-color: red; */
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>it is transition which is good</li>
+        <li>it is css for changing style</li>
+        <li>it helps to dev a web</li>
+    </ul>
+    <div class="box">box 1</div>
+    <div class="box">box 2</div>
+    <div class="box">box 3</div>
+</body>
+
+</html>
